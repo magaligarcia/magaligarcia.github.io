@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+:root {
+    --primary-text-color: #e9e0c5;
+    --second-text-color: #c9c2ab;
+    --thrid-text-color: #36535c;
+    --heading-font-size: 50px;
+    --regular-font-size: 16px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(54,83,92);
+    background: linear-gradient(180deg, rgba(54,83,92,1) 10%, rgba(75,109,120,1) 60%, rgba(108,143,155,1) 88%, rgba(169,191,185,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+main{
+    flex-grow: 1;
+    padding-top: 8%;
+}
+
+
+h1{
+    color: var(--primary-text-color);
+    font-size: var(--heading-font-size);
+    font-family:'Gruppo', sans-serif;
+    
+}
+
+p{
+    color: var(--second-text-color);
+    font-family: 'Inter Tight', sans-serif;
+    padding: 2%;
+}
+
+.link-container{
+margin-top: 10%;
+}
+
+a{
+    text-decoration: none;
+    font-family:'Gruppo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--primary-text-color);
+    color: var(--thrid-text-color);
+ 
+}
+
+footer p{
+    position: sticky;
+    bottom: 0;
+    color: var(--thrid-text-color);
+    font-family: 'Inter Tight', sans-serif;
+}
