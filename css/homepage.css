@@ -24,29 +24,51 @@ main {
     font-size: 18px;
 }
 
-.moduleContainer {
+a {
     width: 25%;
-    padding: 20px;
+    padding: 10px; 
     text-align: center;
     margin: 4%;
     border: 2px solid #ccc;
     text-decoration: none;
     color: black;
-    transition: background-color 0.8s; 
+    transition: background-color 0.8s;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.moduleContainer:hover {
+a:hover {
     background-color: #0fd766;
     font-weight: 500;
 }
 
-a span {
+span {
     color: rgb(220, 1, 1);
     font-weight: 700;
-  }
+    font-size: 16px;
+    margin-top: auto;
+}
 
   #m2:hover, #m3:hover, #m4:hover, #m5:hover, #m6:hover, #m7:hover, #m8:hover{
     background-color: #333;
     color: white;
   }
+
+@media (max-width: 767px) { /* Estilos para dispositivos móviles pequeños y tabletas pequeñas */
+    a {
+        width: 30%;
+        padding: 20px; 
+        margin: 4%;   
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) { /* Estilos para dispositivos móviles medianos y tabletas medianas */
+    a {
+        width: 16%;
+        padding: 20px; 
+        margin: 3%;   
+    }
+}
+
 
