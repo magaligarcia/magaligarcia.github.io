@@ -24,7 +24,7 @@ main {
     font-size: 18px;
 }
 
-.moduleContainer {
+.exerciseContainer {
     width: 25%;
     padding: 20px;
     text-align: center;
@@ -35,18 +35,9 @@ main {
     transition: background-color 0.8s; 
 }
 
-.moduleContainer:hover {
-    background-color: #0fd766;
-    font-weight: 500;
-}
-
-a span {
-    color: rgb(220, 1, 1);
-    font-weight: 700;
-  }
-
-  #m2:hover, #m3:hover, #m4:hover, #m5:hover, #m6:hover, #m7:hover, #m8:hover{
+.exerciseContainer:hover {
     background-color: #333;
     color: white;
-  }
+    font-weight: 500;
+}
 
