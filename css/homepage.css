@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Cambiar la fuente según tus preferencias */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.moduleContainer {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    margin: 4%;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.8s; 
+}
+
+.moduleContainer:hover {
+    background-color: #0fd766;
+    font-weight: 500;
+}
+
+a span {
+    color: rgb(220, 1, 1);
+    font-weight: 700;
+  }
+
+  #m2:hover, #m3:hover, #m4:hover, #m5:hover, #m6:hover, #m7:hover, #m8:hover{
+    background-color: #333;
+    color: white;
+  }
+
