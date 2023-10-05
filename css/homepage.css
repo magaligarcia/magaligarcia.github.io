@@ -57,7 +57,7 @@ span {
 
 @media (max-width: 767px) { /* Estilos para dispositivos móviles pequeños y tabletas pequeñas */
     a {
-        width: 30%;
+        width: 70%;
         padding: 20px; 
         margin: 4%;   
     }
