@@ -33,9 +33,6 @@ a {
     text-decoration: none;
     color: black;
     transition: background-color 0.8s;
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
 }
 
 a:hover {
