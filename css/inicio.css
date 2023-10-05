@@ -20,11 +20,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(54,83,92);
-    background: linear-gradient(180deg, rgba(54,83,92,1) 10%, rgba(75,109,120,1) 60%, rgba(108,143,155,1) 88%, rgba(169,191,185,1) 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: #000814;
     text-align: center;
 }
 
@@ -55,10 +51,11 @@ a{
     text-decoration: none;
     font-family:'Gruppo', sans-serif;
     font-size: 20px;
-    font-weight: bold;
-    padding: 10px 50px 0px 50px;
+    font-weight: 800;
+    padding: 12px 50px 12px 50px;
     background-color: var(--primary-text-color);
-    color: var(--thrid-text-color);
+    color: #000814;
+    letter-spacing: 4px;
  
 }
 
