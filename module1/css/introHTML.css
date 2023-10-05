@@ -26,11 +26,18 @@ main {
 
 a {
     width: 25%;
+    padding: 10px; 
+    text-align: center;
+    margin: 4%;
     border: 2px solid #ccc;
     text-decoration: none;
     color: black;
     transition: background-color 0.8s;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
 }
+
 
 a:hover {
     background-color: #0fd766;
