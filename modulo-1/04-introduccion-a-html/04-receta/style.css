@@ -1,0 +1,81 @@
+/* Resetear los márgenes y relleno predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Contenedor principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el párrafo de descripción */
+main p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.datos-adicionales {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dato {
+    text-align: center;
+}
+
+.dato img {
+    width: 60px;
+    height: 60px;
+}
+
+.dato p{
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+ul, ol {
+    font-size: 18px;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
