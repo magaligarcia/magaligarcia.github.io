@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #00a377;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.playlist {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(30, 0, 255, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #777;
+}
+
+span {
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+ol {
+    margin-left: 20px;
+    list-style: decimal;
+}
+
+li {
+    margin: 6px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
