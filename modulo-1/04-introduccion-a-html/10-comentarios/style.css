@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
+:root {
+    --celestito: #9bc1bc;
+    --crema: #f4f1bb;
+    --salmon:#ed6a5a;
+    --blanco: #fff;
+    --negro:#000;
+    --gris:#6d6d6d;
+    --azul:#0064cf;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +19,8 @@ body {
 }
 
 header {
-    background-color: #323232;
-    color: white;
+    background-color: var(--celestito);
+    color: var(--negro);
     text-align: center;
     padding: 20px 0;
 }
@@ -17,28 +28,26 @@ header {
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 main {
-    background-color: #3c3c3c;
-    font-family: 'Raleway', sans-serif;
-    padding: 20px;
-    color: white;
-}
-
-.contenedor-img{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    max-width: 80%;
     margin: 0 auto;
+    background-color: var(--salmon);
 }
 
-img {
-    max-width: 100%; 
-    height: auto; 
-    margin: 20px 0;
+.comentario {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--blanco);
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid var(--crema);
+    border-radius: 5px;
+    width: 80%;
 }
 
 h2 {
@@ -49,27 +58,23 @@ h2 {
 h3 {
     font-size: 20px;
     margin-top: 10px;
+    color: #007BFF;
+}
+
+span {
+    font-size: 14px;
+    color: var(--gris);
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-ul {
-    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-li {
-    margin-bottom: 6px;
-    font-weight: 800;
-}
-
 a {
-    color: #92c7ff;
+    color: var(--azul);
     text-decoration: none;
 }
 
