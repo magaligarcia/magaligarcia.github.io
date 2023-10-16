@@ -63,7 +63,13 @@ a:hover {
 @media screen and (max-width: 768px){
 
     ul{
-        justify-content: space-between;
-        padding: 0px;
+        justify-content: center;
+        padding: 0px; 
     }
+
+    li{
+        align-items: center;
+        flex-grow: 1;  
+    }
+
 }
