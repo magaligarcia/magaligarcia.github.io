@@ -66,10 +66,4 @@ a:hover {
         justify-content: center;
         padding: 0px; 
     }
-
-    li{
-        align-items: center;
-        flex-grow: 1;  
-    }
-
 }
