@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Georgia', serif;
+}
+
+.metadata {
+    text-align: center;
+    color: gray;
+    margin: 10px;
+}
+
+.author-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.main {
+    padding: 20px;
+}
+
+.normal-paragraph {
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.italic-paragraph {
+    font-style: italic;
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 10px;
+}
+
+.mixed-paragraph {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
