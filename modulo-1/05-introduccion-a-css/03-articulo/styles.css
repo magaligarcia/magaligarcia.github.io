@@ -27,22 +27,27 @@ header {
     color: #007BFF;
 }
 
-.main {
+main {
     padding: 20px;
 }
 
-.normal-paragraph {
-    font-family: 'Times New Roman', serif;
-    margin-bottom: 10px;
+p {
+    font-size: 18px;
 }
 
-.italic-paragraph {
+em {
     font-style: italic;
-    font-family: 'Verdana', sans-serif;
-    margin-bottom: 10px;
 }
 
-.mixed-paragraph {
-    font-family: 'Arial', sans-serif;
-    margin-bottom: 10px;
+strong {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+    font-family: 'Courier New', monospace;
+}
+
+.mixed-text {
+    font-family: 'Georgia', serif;
 }
