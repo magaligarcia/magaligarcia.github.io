@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #555;
+}
+
+.movimientos {
+    list-style: none;
+    padding: 0;
+}
+
+.movimientos li {
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 18px;
+    color: #009900; /* Color verde para el nombre de la operación */
+}
+
+.fecha {
+    font-size: 14px;
+    color: #999; /* Color gris claro para la fecha */
+}
+
+.monto {
+    font-size: 18px;
+}
+
+.ingreso {
+    color: #009900; /* Color verde para ingresos */
+}
+
+.salida {
+    color: #FF0000; /* Color rojo para salidas */
+}

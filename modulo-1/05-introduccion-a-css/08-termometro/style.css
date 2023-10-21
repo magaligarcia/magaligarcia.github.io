@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.temperaturas {
+    list-style: none;
+    padding: 0;
+}
+
+.temperaturas li {
+    margin: 10px 0;
+}
+
+.azul {
+    color: #0099CC;
+}
+
+.azul-claro {
+    color: #66CCFF;
+}
+
+.celeste {
+    color: #00CC99;
+}
+
+.celeste-claro {
+    color: #99FFCC;
+}
+
+.verde {
+    color: #33CC33;
+}
+
+.verde-claro {
+    color: #99CC66;
+}
+
+.amarillo {
+    color: #FFCC00;
+}
+
+.naranja {
+    color: #FF9900;
+}
+
+.rojo-claro {
+    color: #FF6666;
+}
+
+.rojo {
+    color: #FF3333;
+}
