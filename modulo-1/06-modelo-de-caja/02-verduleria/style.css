@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #a5d6a7;
+    color: #242e4c;
+  }
+  
+  .contenedor {
+    width: 250px;
+    padding: 30px;
+    background-color: #f7f7fc;
+    text-align: center;
+    border-radius: 10px;
+    margin: 150px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+p {
+    color: #7d7a9e;
+  }
+  
+  .frutas {
+    margin-top: 30px;
+  }
+  
+  .fruta {
+    width: 160px;
+    background-color: #ffffff;
+    border: 1px solid #ebebf2;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 0 auto 10px;
+  }
+  

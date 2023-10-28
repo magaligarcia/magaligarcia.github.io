@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.bandera {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.franja-francia {
+    width: 100%;
+    height: 33.33%;
+}
+
+.franja-argentina {
+    width: 100%;
+    height: 33.33%;
+}
+
+.franja-alemania {
+    width: 100%;
+    height: 33.33%;
+}
+
+.franja-mexico {
+    width: 100%;
+    height: 33.33%;
+}
+
+.franja-espana {
+    width: 100%;
+    height: 33.33%;
+}
+
+.franja-italia {
+    width: 100%;
+    height: 33.33%;
+}
+
+.franja-azul {
+    background-color: #0055A4;
+}
+
+.franja-blanca {
+    background-color: #FFFFFF;
+}
+
+.franja-roja {
+    background-color: #EF4135;
+}
+
+.franja-celeste {
+    background-color: #78B7BB;
+}
+
+.franja-negro {
+    background-color: #000000;
+}
+
+.franja-rojo {
+    background-color: #FF0000;
+}
+
+.franja-amarillo {
+    background-color: #FFCC29;
+}
+
+.franja-verde {
+    background-color: #009639;
+}
+
+.franja-blanco {
+    background-color: #F6F7F8;
+}
+
+.franja-amarillo {
+    background-color: #FFD100;
+}
