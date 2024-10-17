@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: rgb(2, 2, 2);
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a.button:focus, a.button:hover {
+    outline: 2px solid #000000;
+    background-color: #c4c4c4;
+}
+
+.certification-section {
+    padding: 20px;
+    background-color: #c3c3c3;
+    margin-bottom: 100px;
+}
+
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.certification {
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    width: 30%;
+    text-align: center;
+}
+
+.certification img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:focus, button:hover {
+    outline: 2px solid #4CAF50;
+    background-color: #555;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal[aria-hidden="false"] {
+    display: flex;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
+    max-height: 90vh;
+    width: auto;
+    overflow-y: auto;
+    outline: none;
+    position: relative;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #333;
+}
+
+.close:focus, .close:hover {
+    outline: 2px solid #4CAF50;
+}
+
+@media (max-width: 768px) {
+    .certification {
+        width: 80%;
+    }
+
+    .modal-content {
+        max-width: 95%;
+    }
+}

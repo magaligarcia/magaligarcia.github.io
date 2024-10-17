@@ -1,0 +1,290 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+.highlight {
+    font-family: "Playwrite DK Loopet", cursive;
+    color: var(--dark-gray);
+    font-size: 50px;
+}
+
+.im-magali {
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* About Section */
+#experience {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#experience h2 {
+    font-size: 2rem;
+}
+
+#experience p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Projects Section */
+#education {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+#education h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#skills {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    background: none; /* Sin fondo */
+    box-shadow: none; /* Sin sombra */
+    padding: 0; /* Sin padding */
+    width: auto; /* Ajuste al contenido */
+}
+
+.skill-icon {
+    width: 50px; /* Tamaño del ícono */
+    margin-bottom: 5px; /* Espacio entre el ícono y el texto */
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0; /* Sin margen adicional */
+}
+
+
+#education {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.education-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.2s;
+}
+
+.education-card:hover {
+    transform: scale(1.05);
+}
+
+button.open-modal {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.open-modal:hover {
+    background-color: #555;
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal[aria-hidden="false"] {
+    display: flex;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: left;
+}
+
+span.close-modal {
+    color: #333;
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+span.close-modal:hover {
+    color: #555;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+#contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+    }
+
+    header nav ul.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .project-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}

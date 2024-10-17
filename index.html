@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magali Garcia - Accessibility tester</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Botón de hamburguesa para móvil -->
+            <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-list">
+                &#9776;
+            </button>
+            <ul id="nav-list">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1><span class="highlight">Hello!,</span><span class="im-magali">I'm Magali.</span></h1>
+        <p>I am a professional passionate about web accessibility and quality assurance, dedicated to making the web more inclusive for everyone.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="level-access">
+            <h3>Accessibility Analyst, Level Access</h3>
+            <p>October 2022 - September 2024</p>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Accessibility Testing and Project Management</h3>
+                    <p>Extensive experience in accessibility evaluation from start to finish, including scope determination, test plan development, and final review. Skilled in creating use cases, collaborating with clients and their development teams, and ensuring compliance with WCAG standards. Provide technical guidance and support throughout the process.</p>
+                </div>
+                <div class="project">
+                    <h3>Legal Claims Review on Web Accessibility</h3>
+                    <p>Conduct thorough reviews of accessibility-related claims on digital platforms, verifying their validity against WCAG standards. Analyze the impact of claimed barriers, generate reports with clear recommendations, and ensure follow-up and validation of fixes.</p>
+                </div>
+                <div class="project">
+                    <h3>ACR / VPAT Creation</h3>
+                    <p>Evaluate digital products against accessibility criteria (WCAG, Section 508, ADA, EN 301 549). Document compliance in the VPAT format, highlight non-compliant areas, and collaborate with development teams to address them. PDF accessibility remediation. Clearly communicate results to clients.</p>
+                </div>
+                <div class="project">
+                    <h3>Technical Support for Development Teams</h3>
+                    <p>Offer technical support to development teams by answering accessibility-related questions and providing guidance on WCAG and Section 508 compliance. Assist in solving accessibility issues from early stages and provide actionable recommendations for design and coding.</p>
+                </div>
+                <div class="project">
+                    <h3>Design Evaluations During Development</h3>
+                    <p>Review and evaluate early designs to align them with accessibility standards. Collaborate with designers and developers to make necessary adjustments, identifying barriers early to avoid rework.</p>
+                </div>
+                <div class="project">
+                    <h3>Client Communication</h3>
+                    <p>Maintain clear and professional communication with clients regarding accessibility evaluations. Write concise reports detailing issues, their impact, and recommended solutions, while responding promptly to client inquiries. Ensure client satisfaction through timely follow-ups.</p>
+                </div>
+                <div class="project">
+                    <h3>Managing Testing Teams</h3>
+                    <p>Coordinate and supervise testing teams to ensure thorough accessibility evaluations. Distribute tasks, monitor progress, and ensure deadlines are met. Review results to confirm accuracy and facilitate effective communication between testers, developers, and designers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="icon-html.png" alt="HTML Icon" class="skill-icon">
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <img src="icon-css.png" alt="CSS Icon" class="skill-icon">
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <img src="icon-js.png" alt="JavaScript Icon" class="skill-icon">
+                <p>JavaScript</p>
+            </div>
+            <!-- Añadir más habilidades según sea necesario -->
+        </div>
+    </section>
+    
+    
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-card" id="institute1">
+                <h3>Technical Degree in Programming</h3>
+                <p>Instituto Superior Politécnico de Córdoba</p>
+                <button class="open-modal" data-modal="modal1" aria-controls="modal1" aria-expanded="false">Ver Certificaciones</button>
+            </div>
+            <div class="education-card" id="institute2">
+                <h3>Higher Technician in Quality Assurance</h3>
+                <p>TecLab Instituto Técnico Superior</p>
+                <button class="open-modal" data-modal="modal2" aria-controls="modal2" aria-expanded="false">Ver Certificaciones</button>
+            </div>
+        </div>
+    
+        <!-- Modales accesibles -->
+        <div class="modal" id="modal1" role="dialog" aria-modal="true" aria-labelledby="modal1-title" aria-hidden="true">
+            <div class="modal-content">
+                <h2 id="modal1-title">Certificaciones - Instituto 1</h2>
+                <button class="close-modal" data-modal="modal1" aria-label="Cerrar">&times;</button>
+                <ul>
+                    <li>Certificación A</li>
+                    <li>Certificación B</li>
+                    <li>Certificación C</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="modal" id="modal2" role="dialog" aria-modal="true" aria-labelledby="modal2-title" aria-hidden="true">
+            <div class="modal-content">
+                <h2 id="modal2-title">Certificaciones - Instituto 2</h2>
+                <button class="close-modal" data-modal="modal2" aria-label="Cerrar">&times;</button>
+                <ul>
+                    <li>Certificación D</li>
+                    <li>Certificación E</li>
+                    <li>Certificación F</li>
+                </ul>
+            </div>
+        </div>
+    
+    </section>
+    
+    <section id="education">
+        <h2>Certifications</h2>
+        <div class="education-container">
+            
+            <div class="education-card" id="institute3">
+                <h3>Professional development courses</h3>
+                <a href="courses/index.html" class="button">Ver Cartificaciones</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Envíame un mensaje a <a href="mailto:magalimaribelgarcia@gmail.com">magalimaribelgarcia@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 - Magali Garcia</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
