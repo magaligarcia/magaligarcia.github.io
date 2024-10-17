@@ -92,12 +92,42 @@
 
     <section id="education">
         <h2>Education</h2>
+    
         <div class="education-container">
             <div class="education-card" id="institute1">
                 <h3>Technical Degree in Programming</h3>
                 <p>Instituto Superior Politécnico de Córdoba</p>
                 <button class="open-modal" data-modal="modal1" aria-controls="modal1" aria-expanded="false">Ver Certificaciones</button>
             </div>
+    
+            <div class="modal" id="modal1" role="dialog" aria-modal="true" aria-labelledby="modal1-title" aria-hidden="true">
+                <div class="modal-content">
+                    <button class="close-modal" data-modal="modal1" aria-label="Cerrar">&times;</button>
+                    <h2 id="modal1-title">Technical Degree in Programming</h2>
+                    <img src="img/Technical Degree in Programming.png" alt="Technical Degree in Programming certificate" class="diploma-image">
+                    <p style="text-align: left;">Translate:</p>
+                    <p style="text-align: left;">MINISTRY OF EDUCATION
+                        SECRETARIAT OF EDUCATION
+                        DIRECTORATE GENERAL OF TECHNICAL EDUCATION AND PROFESSIONAL TRAINING
+                        CERTIFICATE OF PROFESSIONAL TRAINING
+                        NATIONAL LAW NO. 26,058 AND PROVINCIAL LAW NO. 9,870
+                        
+                        This is to certify that GARCÍA, Magali, ID No. 36,552,605, has completed and passed the course "Programmer" (M.R. Resolution CFE No. 289/16 Annex I), taught at the Higher Polytechnic Institute of Córdoba, with a total duration of three hundred sixty-four clock hours (364 hours).
+                        
+                        Granted by the Directorate General of Technical Education and Professional Training in the city of Córdoba, Province of Córdoba, Republic of Argentina, on the 30th day of October in the year 2023.</p>
+                    <ul style="text-align: left;">
+                        <li>Ethics and Professional Deontology</li>
+                        <li>English</li>
+                        <li>Professional Practice</li>
+                        <li>Introduction to Programming</li>
+                        <li>Programming</li>
+                        <li>Web Programming</li>
+                        <li>Content Management Systems (CMS)</li>
+                        <li>Databases</li>
+                    </ul>
+                </div>
+            </div>
+    
             <div class="education-card" id="institute2">
                 <h3>Higher Technician in Quality Assurance</h3>
                 <p>TecLab Instituto Técnico Superior</p>
@@ -105,23 +135,13 @@
             </div>
         </div>
     
-        <!-- Modales accesibles -->
-        <div class="modal" id="modal1" role="dialog" aria-modal="true" aria-labelledby="modal1-title" aria-hidden="true">
-            <div class="modal-content">
-                <h2 id="modal1-title">Certificaciones - Instituto 1</h2>
-                <button class="close-modal" data-modal="modal1" aria-label="Cerrar">&times;</button>
-                <ul>
-                    <li>Certificación A</li>
-                    <li>Certificación B</li>
-                    <li>Certificación C</li>
-                </ul>
-            </div>
-        </div>
+        <!--------------------- Modales ------------------->
     
         <div class="modal" id="modal2" role="dialog" aria-modal="true" aria-labelledby="modal2-title" aria-hidden="true">
             <div class="modal-content">
-                <h2 id="modal2-title">Certificaciones - Instituto 2</h2>
                 <button class="close-modal" data-modal="modal2" aria-label="Cerrar">&times;</button>
+                <h2 id="modal2-title">Higher Technician in Quality Assurance</h2>
+                <img src="img/Technical Degree in Programming.png" alt="Technical Degree in Programming Diploma" class="diploma-image">
                 <ul>
                     <li>Certificación D</li>
                     <li>Certificación E</li>
@@ -129,8 +149,8 @@
                 </ul>
             </div>
         </div>
-    
     </section>
+    
     
     <section id="education">
         <h2>Certifications</h2>
