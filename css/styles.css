@@ -7,7 +7,6 @@ body {
 
 header {
     background-color: #333;
-    padding: 10px;
     position: relative;
     width: 100%;
 }
@@ -29,28 +28,12 @@ header nav ul li a {
     font-weight: bold;
 }
 
-.hamburger {
-    display: none;
-    font-size: 30px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-}
-
-.hamburger:focus {
-    outline: none;
-}
-
 #hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     text-align: center;
     background-color: #f4f4f4;
@@ -85,9 +68,9 @@ header nav ul li a {
 #hero p {
     font-size: 1.2rem;
     color: #555;
-    max-width: 100%; /* Asegúrate de que no exceda el ancho */
-    word-wrap: break-word; /* Permite que el texto largo se divida */
-    overflow-wrap: break-word; /* Similar a word-wrap, pero más moderno */
+    max-width: 100%; 
+    margin: 0; 
+    padding: 0 10px; 
 }
 
 #experience {
@@ -300,14 +283,6 @@ footer {
 
     header nav ul.show {
         display: flex;
-    }
-
-    .hamburger {
-        display: block;
-    }
-    #hero {
-        width: 100vh;
-
     }
 
     .profile-image {
