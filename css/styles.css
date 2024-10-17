@@ -301,16 +301,13 @@ footer {
         display: block;
     }
     #hero {
-        height: 70vh;
+        height: 100vh;
+        width: 80vh;
 
     }
 
     .profile-image {
-        width: 300px; /* Ajusta el tamaño según tus necesidades */
-        height: auto; /* Asegúrate de que sea igual al ancho para mantener la forma redonda */
-        border-radius: 20%; /* Esto hace que la imagen sea redonda */
-        object-fit: cover; /* Asegura que la imagen mantenga su proporción sin deformarse */
-        
+        width: 200px; 
     }
 
     .project-grid {
