@@ -37,14 +37,14 @@ header nav ul li a {
     min-height: 100vh;
     width: 100%;
     text-align: center;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 
 .profile-image {
-    width: 400px; /* Ajusta el tamaño según tus necesidades */
-    height: auto; /* Asegúrate de que sea igual al ancho para mantener la forma redonda */
-    border-radius: 20%; /* Esto hace que la imagen sea redonda */
-    object-fit: cover; /* Asegura que la imagen mantenga su proporción sin deformarse */
+    width: 400px; 
+    height: auto;
+    border-radius: 20%; 
+    object-fit: cover; 
     
 }
 
