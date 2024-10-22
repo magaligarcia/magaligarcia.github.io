@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #333;
     position: relative;
     width: 100%;
 }
@@ -15,18 +15,19 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 0;
+    padding: 20px;
+    margin: 0;
 }
 
 header nav ul li {
-    margin: 0 15px;
+    margin: 0% 4% 0% 4%;
 }
 
 header nav ul li a {
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #hero {
@@ -89,9 +90,15 @@ header nav ul li a {
     color: #333;
 }
 
-#education, #certification {
+#education {
     padding: 50px;
     background-color: #f4f4f4;
+}
+
+#certification {
+    padding: 50px;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 
 #education h2 {
@@ -125,7 +132,7 @@ header nav ul li a {
 
 #skills {
     padding: 50px;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
     text-align: center;
 }
 
