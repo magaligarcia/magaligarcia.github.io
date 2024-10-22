@@ -14,9 +14,10 @@
     <header>
         <nav>
             <ul id="nav-list">
-                <li><a href="#about">Sobre mí</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -128,6 +129,7 @@
             <div class="education-card" id="institute2">
                 <h3>Higher Technician in Quality Assurance</h3>
                 <p>TecLab Instituto Técnico Superior</p>
+                <br>
                 <button class="open-modal" data-modal="modal2" aria-controls="modal2" aria-expanded="false">Ver Certificaciones</button>
             </div>
         </div>
@@ -162,7 +164,7 @@
     </section>
     
     
-    <section id="education">
+    <section id="certification">
         <h2>Certifications</h2>
         <div class="education-container">
             
@@ -175,10 +177,29 @@
     </section>
 
     <section id="contact">
-        <h2>Contacto</h2>
-        <p>Envíame un mensaje a <a href="mailto:magalimaribelgarcia@gmail.com">magalimaribelgarcia@gmail.com</a></p>
-    </section>
+        <h2>Contact</h2>
+        
+        <form action="mailto:magalimaribelgarcia@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
 
+        <p>Location: Mendoza, Argentina</p>
+
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/magalimaribelgarcia/" target="_blank">linkedin.com/in/magalimaribelgarcia</a></p>
+
+        <p>
+            Follow me: 
+            <a href="https://twitter.com/tu_usuario" target="_blank">Twitter</a> | 
+            <a href="https://www.instagram.com/tu_usuario" target="_blank">Instagram</a> | 
+            <a href="https://github.com/tu_usuario" target="_blank">GitHub</a>
+        </p>
+
+        <p><a href="ruta_a_tu_cv.pdf" target="_blank">Download my CV</a></p>
+    </section>
+    
     <footer>
         <p>&copy; 2024 - Magali Garcia</p>
     </footer>
