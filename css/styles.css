@@ -140,26 +140,42 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
 }
 
-.skill {
-    background: none;
-    box-shadow: none;
-    padding: 0;
-    width: auto;
-}
-
-.skill-icon {
-    width: 50px;
-    margin-bottom: 5px;
-}
 
 .skill p {
     font-size: 1rem;
     color: #333;
     margin: 0;
 }
+
+.skill-type {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.skill-type h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
 
 #education {
     padding: 50px;
