@@ -367,7 +367,28 @@ footer {
         padding: 15px;
     }
 
-    .skill {
-        margin-bottom: 20px;
+    .skill-type {
+        display: flex;
+        flex-direction: column; /* Coloca el título arriba y las habilidades abajo */
+        align-items: center;    /* Centra horizontalmente el contenido */
+       
     }
+    
+    .skill-type h3 {
+        font-size: 22px;
+        margin-bottom: 20px;    /* Espacio entre el título y los íconos */
+        text-align: center;     /* Centra el texto del título */
+        display: block;         /* Asegura que el título ocupe toda la línea */
+    }
+    
+    .skill {
+        flex-direction: column; /* Opcional: organiza ícono y texto verticalmente */
+        align-items: center;    
+    }
+
+    .skill-icon {
+        width: 80px;
+        height: 80px;
+    }
+    
 }
