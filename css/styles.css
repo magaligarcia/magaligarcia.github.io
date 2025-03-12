@@ -341,17 +341,28 @@ footer {
 
 @media (max-width: 768px) {
     header nav ul {
-        display: none;
+        font-size: 20px;
+        background-color: #f4f4f4;
+        display: block;
+        text-align: center;
+        
     }
 
-    header nav ul.show {
-        display: none;
+    header nav ul li {
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a{
+        color: black;
+    }
+
+    #hero {
+        min-height: 80vh;
     }
 
     .profile-image {
         width: 300px; 
         border-radius: 3%; 
-        margin-top: 16px;
         margin-bottom: 50px;
     }
 
@@ -371,7 +382,7 @@ footer {
         display: flex;
         flex-direction: column; /* Coloca el título arriba y las habilidades abajo */
         align-items: center;    /* Centra horizontalmente el contenido */
-       
+       width: 86%;
     }
     
     .skill-type h3 {
