@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav-desktop">
             <ul id="nav-list">
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -20,6 +20,27 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
+        <nav class="nav-mobile">
+            <button id="menu-button" aria-expanded="false" aria-controls="dropdown-menu">
+                <img src="img/hamburger-menu-icon.png" alt="Open menu">
+            </button>
+            <ul id="dropdown-menu" role="menu" hidden>
+                <li role="none">
+                    <a href="#experience" role="menuitem">Experience</a>
+                </li>
+                <li role="none">
+                    <a href="#skills" role="menuitem">Skills</a>
+                </li>
+                <li role="none">
+                    <a href="#education" role="menuitem">Education</a>
+                </li>
+                <li role="none">
+                    <a href="#contact" role="menuitem">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        
     </header>
 
     <section id="hero">

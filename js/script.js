@@ -2,6 +2,24 @@
 const openModalButtons = document.querySelectorAll('.open-modal');
 const closeModalButtons = document.querySelectorAll('.close-modal');
 const modals = document.querySelectorAll('.modal');
+const menuButton = document.getElementById("menu-button");
+const dropdownMenu = document.getElementById("dropdown-menu");
+
+// Menu mobile desplegable
+menuButton.addEventListener("click", () => {
+    const isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+
+    menuButton.setAttribute("aria-expanded", !isExpanded);
+    
+    // Alternar el atributo "hidden" del menú
+    if (isExpanded) {
+        dropdownMenu.setAttribute("hidden", ""); // Oculta el menú
+    } else {
+        dropdownMenu.removeAttribute("hidden"); // Muestra el menú
+    }
+});
+
+
 
 // Función para abrir el modal y gestionar el foco
 openModalButtons.forEach(button => {

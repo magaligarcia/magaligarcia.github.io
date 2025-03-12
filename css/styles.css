@@ -6,12 +6,16 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #f6f6f6;
     position: relative;
     width: 100%;
 }
 
-header nav ul {
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop ul {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -19,12 +23,12 @@ header nav ul {
     margin: 0;
 }
 
-header nav ul li {
+.nav-desktop ul li {
     margin: 0% 4% 0% 4%;
 }
 
-header nav ul li a {
-    color: #ffffff;
+.nav-desktop ul li a {
+    color: #333;
     text-decoration: none;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -340,20 +344,55 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header nav ul {
-        font-size: 20px;
-        background-color: #f4f4f4;
+
+    .nav-desktop {
+        display: none;
+    }
+    .nav-mobile {
         display: block;
-        text-align: center;
-        
+        position: relative;
     }
-
-    header nav ul li {
-        margin-bottom: 20px;
+    
+    #menu-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
     }
-
-    header nav ul li a{
-        color: black;
+    
+    #menu-button img {
+        width: 50px; 
+        height: auto;
+    }
+    
+    #dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin: 0;
+        padding: 10px;
+        list-style: none;
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        display: none; 
+    }
+    
+    #dropdown-menu:not([hidden]) {
+        display: block;
+    }
+    
+    
+    #dropdown-menu a {
+        text-decoration: none;
+        padding: 8px 12px;
+        color: #333;
+        display: block;
+    }
+    
+    #dropdown-menu a:hover {
+        background-color: #e5e5e5;
+        color: #0078D4;
     }
 
     #hero {
