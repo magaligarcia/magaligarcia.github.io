@@ -15,6 +15,10 @@ header {
     display: none;
 }
 
+.nav-desktop {
+    display: block;
+}
+
 .nav-desktop ul {
     list-style: none;
     display: flex;
@@ -370,7 +374,7 @@ footer {
         top: 100%;
         left: 0;
         margin: 0;
-        padding: 10px;
+        padding: 50px;
         list-style: none;
         background: #f9f9f9;
         border: 1px solid #ddd;
@@ -388,6 +392,7 @@ footer {
         padding: 8px 12px;
         color: #333;
         display: block;
+        font-size: 30px;
     }
     
     #dropdown-menu a:hover {
@@ -419,20 +424,20 @@ footer {
 
     .skill-type {
         display: flex;
-        flex-direction: column; /* Coloca el título arriba y las habilidades abajo */
-        align-items: center;    /* Centra horizontalmente el contenido */
+        flex-direction: column; 
+        align-items: center;    
        width: 86%;
     }
     
     .skill-type h3 {
         font-size: 22px;
-        margin-bottom: 20px;    /* Espacio entre el título y los íconos */
-        text-align: center;     /* Centra el texto del título */
-        display: block;         /* Asegura que el título ocupe toda la línea */
+        margin-bottom: 20px;    
+        text-align: center;    
+        display: block;        
     }
     
     .skill {
-        flex-direction: column; /* Opcional: organiza ícono y texto verticalmente */
+        flex-direction: column;
         align-items: center;    
     }
 
