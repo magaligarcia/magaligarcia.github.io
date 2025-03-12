@@ -166,7 +166,7 @@ header {
 .skill p {
     font-size: 1rem;
     color: #333;
-    margin: 0;
+    margin: 10px 0px 0px 0px;
 }
 
 .skill-type {
@@ -184,7 +184,7 @@ header {
 }
 
 .skill {
-    display: flex;
+    display: block;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -424,23 +424,20 @@ footer {
 
     .skill-type {
         display: flex;
-        flex-direction: column; 
-        align-items: center;    
-       width: 86%;
-    }
-    
-    .skill-type h3 {
-        font-size: 22px;
-        margin-bottom: 20px;    
-        text-align: center;    
-        display: block;        
+        flex-wrap: wrap; /* Permite que los elementos pasen a una nueva línea si no hay espacio suficiente */
+        justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+        gap: 20px; /* Espaciado entre los elementos */
+        margin: 20px 0;
     }
     
     .skill {
-        flex-direction: column;
-        align-items: center;    
+        display: flex;
+        flex-direction: column; /* Mantiene el ícono y el texto organizados verticalmente */
+        align-items: center; /* Centra el ícono y el texto horizontalmente */
+        width: 100px; /* Define un ancho fijo o máximo para los elementos */
+        text-align: center;
     }
-
+    
     .skill-icon {
         width: 80px;
         height: 80px;
